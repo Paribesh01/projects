@@ -1,0 +1,36 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+}
+.whole{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-family: 'Smooch', cursive;
+}
+.question1{
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+max-width:800px ;
+margin-top: 40px;
+}
+.question{
+    width: 600px;
+    max-width: 800px;
+}
+.q{
+    padding-right: 50%;
+}
+.ans{
+    border-top: solid 1px black;
+    display: none;
+}
+.ans-dis{
+    display: block;
+}

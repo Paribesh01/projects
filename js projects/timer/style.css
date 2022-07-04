@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: xxx-large;
+    color: rgb(160, 113, 184);
+    background-color: rgb(43, 46, 49);
+}
+
+
+button{
+    padding: 3px;
+    border-radius: 20px;
+}
+input{
+    border: none;
+}
+
+.whole{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first{
+    margin-bottom: 20px;
+
+}
+.display{
+    margin-top:20px;
+}
